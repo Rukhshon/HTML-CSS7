@@ -1,0 +1,33 @@
+.clients-list {
+    display: flex; 
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.clients-list-item {
+    margin-left: 30px;
+   
+    
+}
+.clients-list-link {
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 14px 31px; 
+  display: inline-block;
+}
+
+.clients-list-link:hover .client-list-icon,
+.clients-list-link:focus .client-list-icon,
+.clients-list-link:hover ,
+.clients-list-link:focus  {
+    border-color: #2196f3;
+    fill: #2196f3;
+}
+
+.client-list-icon{
+    fill: #AFB1B8;
+}
+.clients-list .cleints-list-item:first-child {
+    margin-left: 0;
+}

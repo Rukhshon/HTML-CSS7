@@ -1,0 +1,98 @@
+.team,
+.photos {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.our-task {
+    font-size: 36px;
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+
+
+.our-team {
+    background-color: #f4f5fa;
+
+}
+ .card-info {
+  padding: 30px 0;
+   text-align: center;
+ }
+ .team-list {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 90px) / 4);
+    list-style: none;
+ }
+
+
+ .team-name {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+   
+
+     
+ }
+
+ .team-position {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+    
+}
+.social-list {
+    display: flex;
+    justify-content: center ;
+    list-style: none;
+    margin-right: 32px;
+    padding-left: 0%;
+    
+}
+
+.social-item {
+    margin-left: 10px;
+}
+.social-list .social-item:first-child {
+    margin-left: 0%;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+
+
+}
+.social-icon {
+    fill: #757575;
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon:hover,
+.social-icon:focus,
+.social-link:hover,
+.social-link:focus {
+  background: #2196f3;
+  fill: white;
+}

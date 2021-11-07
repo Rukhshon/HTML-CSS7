@@ -1,0 +1,41 @@
+.social-list {
+    display: flex;
+    justify-content: center ;
+    list-style: none;
+    margin-right: 32px;
+    padding-left: 0%;
+    
+}
+
+.social-item {
+    margin-left: 10px;
+}
+.social-list .social-item:first-child {
+    margin-left: 0%;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+
+
+}
+.social-icon {
+    fill: #757575;
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon:hover ,
+.social-icon:focus,
+.social-link:hover,
+.social-link:focus {
+  background: #2196f3;
+  fill: white;
+}
+
+

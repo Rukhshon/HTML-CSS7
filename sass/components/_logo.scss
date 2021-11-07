@@ -1,0 +1,28 @@
+
+.web {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+   
+    }
+.studio
+{
+    font-family: Raleway;
+    display: flex;
+    align-items: center;
+    margin-right: 88px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212221;
+}

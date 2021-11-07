@@ -1,0 +1,119 @@
+.header {
+    border-bottom: 1px solid #ececec;
+    & .container {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+  }
+  .page-header {
+      border-bottom: 1px solid #EEEEEE;
+
+  }
+  
+  
+
+.header-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-direction: row;
+    
+
+}
+.header-list:hover,
+.header-list:focus {
+    color: #2196f3;
+
+
+}
+
+.site-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 32px 0;
+    color: var(--main-color);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 46.88px;
+}
+
+
+.contact {
+    font-style: normal;
+    display: flex;    
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 30px;
+    list-style: none;
+    color: var(--main-color);
+    
+}
+
+
+.mail-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+    color: grey;
+ 
+    
+
+}
+.tel-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contact :hover,
+.contact :focus {
+    color: #2196f3;
+}
+.mail-icon {
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel-icon {
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    padding: 9px 0;
+    display: block;
+    @media screen and (min-width: 768px) {
+    display: none;
+    }
+    
+    }
+
