@@ -121,6 +121,19 @@ ul li {
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
 .effective {
   display: block;
   width: 100%;
@@ -426,14 +439,51 @@ h6 {
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .d-flex {
   display: flex;
 }
 
-.main-nav,
-.site-nav,
-.contact {
+.main-nav {
   display: flex;
+}
+
+.site-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .site-nav {
+    display: flex;
+  }
+}
+
+.site-nav .site-nav {
+  margin-right: 50px;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+  }
 }
 
 .rezerv {
@@ -458,13 +508,19 @@ h6 {
   font-family: Raleway;
   display: flex;
   align-items: center;
-  margin-right: 93px;
+  margin-right: 88px;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212221;
+}
+
+@media screen and (min-width: 1200px) {
+  .studio {
+    margin-right: 93px;
+  }
 }
 
 .bp-1 {
