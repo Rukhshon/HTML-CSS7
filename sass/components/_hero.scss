@@ -1,38 +1,32 @@
 .effective {
-    width: 100%;
-    max-width: 1600px;
+
   
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 118x 0;
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../images/headermob-min.jpg);
+      url(../Images/headermob-min.jpg);
     @media screen and (min-width: 768px) {
       background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/headertab-min.jpg);
+        url(../Images/headertab-min.jpg);
     }
     @media screen and (min-width: 1200px) {
       background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/headerdes-min.jpg);
+        url(../Images/headerdes-min.jpg);
+        padding: 200px 0;
     }
     background-size: cover;
     background-repeat: no-repeat;
-    }
-.effective {
-    display: block;
-    width: 100%;
+    max-width: 1600 px;
     margin: 0 auto;
-    padding: 200px 0;
-    background: #2f303a;
-   
-    }
+
 
 &-solution-title {
-  color: #fff;
+
   text-transform: uppercase;
   @include font(26px, $color-white, 1.6, 900);
 
   @media screen and (min-width: 1200px) {
-    @include font(44px, $color-white, 1.3, 900);
+    @include font(44px, $color-white, 1.17, 900);
   }
   text-align: center;
   letter-spacing: 0.06em;
@@ -42,6 +36,7 @@
 
 
 }
+
 
 &-button {
     padding: 10px 32px;
@@ -59,4 +54,5 @@
 &-effective-solution-title-button:hover,
 &-effective-solution-title-button:focus {
 background-color: #188ce8;
+}
 }

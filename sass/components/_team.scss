@@ -1,10 +1,6 @@
-.team,
-.photos {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+
     
-}
+
 .our-task {
     font-size: 36px;
     margin: 0 0 50px 0;
@@ -17,23 +13,11 @@
 }
 
 
-
-.our-team {
-    background-color: #f4f5fa;
-
-}
  .card-info {
   padding: 30px 0;
    text-align: center;
  }
- .team-list {
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 90px) / 4);
-    list-style: none;
- }
-
+ 
 
  .team-name {
 
@@ -66,6 +50,9 @@
     
 }
 
+.our-team {
+    background-color: #f4f5fa;
+
 .social-item {
     margin-left: 10px;
 }
@@ -95,4 +82,30 @@
 .social-link:focus {
   background: #2196f3;
   fill: white;
+} 
+
+.team-list {
+    width: 100%;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 90px) / 4);
+    }
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  
+} 
+
+.team {
+    display: block;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
 }
